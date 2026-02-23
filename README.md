@@ -8,6 +8,13 @@ Production-quality macOS (Ventura+) SwiftUI app to export Apple Notes into a str
 - Select the `NotesToMarkdownBackup` scheme.
 - Run on macOS 13+.
 
+### Deployment (DMG / distribution)
+
+See `DEPLOYMENT.md` for step-by-step instructions to:
+
+- Build a local `.app` and create a drag-to-Applications `.dmg`
+- (Optional) Sign + notarize for distribution to other users
+
 ### Permissions
 
 This app automates **Notes.app** via Apple Events. On first access macOS will prompt:
