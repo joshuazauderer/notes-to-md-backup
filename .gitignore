@@ -11,3 +11,15 @@ xcuserdata/
 *.dSYM.zip
 *.xcresult
 
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
+*secret*
+.npmrc
+.netrc
